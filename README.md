@@ -4,10 +4,6 @@ A Smart Door authentication system that uses Kinesis Video Streams and Amazon Re
 
 <img alt="Architecture" src="Images/OTP_Webpage.PNG">
 
-## Architecture
-
-<img alt="Architecture" src="Images/Architecture.PNG">
-
 ## Requirements
 1. For a given visitor, your system should be able to depict their face and email you to allow or deny them access.
 2. If allowed access, you should be able to capture their information through a hosted web page. 
@@ -87,6 +83,9 @@ a. Create a second web page (WP2), the “virtual door”, that prompts the user
     ii. If the OTP is invalid, present a “permission denied” message.
 
 b. Note that you will have to build your own API to capture and validate the OTP. Its design and implementation is left up to you.
-       
+
+## Architecture
+
+<img alt="Architecture" src="Images/Architecture.PNG">
 
 
